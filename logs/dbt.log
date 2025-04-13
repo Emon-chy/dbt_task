@@ -1,0 +1,114 @@
+[0m17:22:44.342594 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016F003601C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016F022C38B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016F022C36A0>]}
+
+
+============================== 17:22:44.346222 | fab32637-6493-4c14-9753-490e63b9945d ==============================
+[0m17:22:44.346222 [info ] [MainThread]: Running with dbt=1.9.4
+[0m17:22:44.347221 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\EmonChowdhury\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt init dbt_task', 'send_anonymous_usage_stats': 'True'}
+[0m17:22:44.372043 [debug] [MainThread]: Starter project path: C:\Users\EmonChowdhury\AppData\Local\Programs\Python\Python310\lib\site-packages\dbt\include\starter_project
+[0m17:22:44.430000 [info ] [MainThread]: 
+Your new dbt project "dbt_task" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:22:44.431102 [info ] [MainThread]: Setting up your profile.
+[0m17:22:55.788337 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m17:22:55.789336 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m17:53:24.664697 [info ] [MainThread]: Profile dbt_task written to C:\Users\EmonChowdhury\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:53:24.664697 [debug] [MainThread]: Command `dbt init` succeeded at 17:53:24.664697 after 1840.40 seconds
+[0m17:53:24.664697 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016F003601C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016F02233B80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000016F022B8F70>]}
+[0m17:53:24.664697 [debug] [MainThread]: Flushing usage events
+[0m17:53:26.187546 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:53:48.107778 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C14E60130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C16CCB7F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C16CCB640>]}
+
+
+============================== 17:53:48.123492 | d2456b08-d9a3-4206-867a-8cbe86333321 ==============================
+[0m17:53:48.123492 [info ] [MainThread]: Running with dbt=1.9.4
+[0m17:53:48.123492 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\EmonChowdhury\\.dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:53:48.149499 [info ] [MainThread]: dbt version: 1.9.4
+[0m17:53:48.149499 [info ] [MainThread]: python version: 3.10.11
+[0m17:53:48.150544 [info ] [MainThread]: python path: C:\Users\EmonChowdhury\AppData\Local\Programs\Python\Python310\python.exe
+[0m17:53:48.150544 [info ] [MainThread]: os info: Windows-10-10.0.22631-SP0
+[0m17:53:48.371660 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m17:53:48.376170 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m17:53:48.470857 [info ] [MainThread]: Using profiles dir at C:\Users\EmonChowdhury\.dbt
+[0m17:53:48.470857 [info ] [MainThread]: Using profiles.yml file at C:\Users\EmonChowdhury\.dbt\profiles.yml
+[0m17:53:48.470857 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\EmonChowdhury\dbt_task\dbt_task\dbt_project.yml
+[0m17:53:48.470857 [info ] [MainThread]: adapter type: redshift
+[0m17:53:48.486492 [info ] [MainThread]: adapter version: 1.9.3
+[0m17:53:48.486492 [info ] [MainThread]: Configuration:
+[0m17:53:48.486492 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m17:53:48.486492 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m17:53:48.486492 [info ] [MainThread]: Required dependencies:
+[0m17:53:48.486492 [debug] [MainThread]: Executing "git --help"
+[0m17:53:48.486492 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m17:53:48.486492 [info ] [MainThread]: Connection:
+[0m17:53:48.486492 [info ] [MainThread]:   host: test-db
+[0m17:53:48.486492 [info ] [MainThread]:   user: admin
+[0m17:53:48.486492 [info ] [MainThread]:   port: 5439
+[0m17:53:48.486492 [info ] [MainThread]:   database: dev
+[0m17:53:48.486492 [info ] [MainThread]:   method: database
+[0m17:53:48.486492 [info ] [MainThread]:   cluster_id: None
+[0m17:53:48.486492 [info ] [MainThread]:   iam_profile: None
+[0m17:53:48.486492 [info ] [MainThread]:   schema: staging
+[0m17:53:48.486492 [info ] [MainThread]:   sslmode: prefer
+[0m17:53:48.486492 [info ] [MainThread]:   region: None
+[0m17:53:48.486492 [info ] [MainThread]:   sslmode: prefer
+[0m17:53:48.486492 [info ] [MainThread]:   region: None
+[0m17:53:48.486492 [info ] [MainThread]:   autocreate: False
+[0m17:53:48.486492 [info ] [MainThread]:   db_groups: []
+[0m17:53:48.486492 [info ] [MainThread]:   ra3_node: False
+[0m17:53:48.486492 [info ] [MainThread]:   connect_timeout: None
+[0m17:53:48.486492 [info ] [MainThread]:   role: None
+[0m17:53:48.486492 [info ] [MainThread]:   retries: 1
+[0m17:53:48.486492 [info ] [MainThread]:   autocommit: True
+[0m17:53:48.502115 [info ] [MainThread]:   access_key_id: None
+[0m17:53:48.502115 [info ] [MainThread]:   is_serverless: None
+[0m17:53:48.502115 [info ] [MainThread]: Registered adapter: redshift=1.9.3
+[0m17:53:48.832340 [debug] [MainThread]: Acquiring new redshift connection 'debug'
+[0m17:53:48.832340 [debug] [MainThread]: Using redshift connection "debug"
+[0m17:53:48.832340 [debug] [MainThread]: On debug: select 1 as id
+[0m17:53:48.832340 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m17:53:48.832340 [debug] [MainThread]: Redshift adapter: Connecting to Redshift with 'database' credentials method
+[0m17:53:48.832340 [debug] [MainThread]: Redshift adapter: Establishing connection using ssl with `sslmode` set to 'prefer'.To connect without ssl, set `sslmode` to 'disable'.
+[0m17:53:51.801808 [debug] [MainThread]: Redshift adapter: Got a retryable error when attempting to open a redshift connection.
+1 attempts remaining. Retrying in 1 seconds.
+Error:
+('communication error', gaierror(11001, 'getaddrinfo failed'))
+[0m17:53:55.493953 [debug] [MainThread]: Redshift adapter: Error running SQL: select 1 as id
+[0m17:53:55.493953 [debug] [MainThread]: Redshift adapter: Rolling back transaction.
+[0m17:53:55.493953 [debug] [MainThread]: On debug: No close available on handle
+[0m17:53:55.493953 [info ] [MainThread]:   Connection test: [[31mERROR[0m]
+
+[0m17:53:55.493953 [info ] [MainThread]: [31m3 checks failed:[0m
+[0m17:53:55.493953 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\EmonChowdhury\dbt_task\dbt_task\dbt_project.yml> not found
+
+[0m17:53:55.493953 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m17:53:55.493953 [info ] [MainThread]: dbt was unable to connect to the specified database.
+The database returned the following error:
+
+  >Database Error
+  ('communication error', gaierror(11001, 'getaddrinfo failed'))
+
+Check your database credentials and try again. For more information, visit:
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m17:53:55.493953 [debug] [MainThread]: Command `dbt debug` failed at 17:53:55.493953 after 7.47 seconds
+[0m17:53:55.493953 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m17:53:55.493953 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C14E60130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C16C72710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028C172D72E0>]}
+[0m17:53:55.509574 [debug] [MainThread]: Flushing usage events
+[0m17:53:56.656354 [debug] [MainThread]: An error was encountered while trying to flush usage events
