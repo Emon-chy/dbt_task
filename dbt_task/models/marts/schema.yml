@@ -1,0 +1,48 @@
+version: 2
+
+models:
+  - name: marketing_sales_summary
+    description: "This model aggregates marketing and sales data to generate key performance metrics."
+    columns:
+      - name: transaction_year
+        description: "The year of the transaction."
+        tests:
+          - not_null
+      - name: transaction_month
+        description: "The month of the transaction."
+        tests:
+          - not_null
+      - name: category
+        description: "The category of the product."
+        tests:
+          - not_null
+      - name: unique_customers
+        description: "The number of unique customers who made a purchase in the given year, month and category."
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: "unique_customers >= 0"
+      - name: total_revenue
+        description: "The total revenue generated in the given year, month and category."
+        tests:
+          - not_null
+          - positive_value
+      - name: total_cost
+        description: "The total cost of goods sold in the given year, month and category."
+        tests:
+          - not_null
+      - name: total_marketing_cost
+        description: "The total marketing cost for the given year and month."
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: "total_marketing_cost >= 0"
+      - name: total_marketing_events
+        description: "The total number of marketing events in the given year and month."
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: "total_marketing_cost >= 0"
+      - name: revenue_to_cost_ratio
+        tests:
+          - not_null

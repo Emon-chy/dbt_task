@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: raw
+    database: dev
+    schema: raw_schema  
+    tables:
+      - name: marketing_events
+        description: Details about the marketing campaign events
+      - name: sales_transactions
+        description: Details about each sales transaction
+      - name: product_catalog
+        description: Details about the products
