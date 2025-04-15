@@ -1,0 +1,23 @@
+dbt_task:
+  outputs:
+    dev:
+      dbname: dev
+      host: the_host_of_the_test_redshift_cluster
+      password: Admin123
+      port: 5439
+      schema: marts
+      threads: 1
+      type: redshift
+      user: admin
+    
+    prod:
+      dbname: prod
+      host: the_host_of_the_prod_redshift_cluster
+      password: Admin123
+      port: 5439
+      schema: marts
+      threads: 1
+      type: redshift
+      user: admin
+  
+  target: dev
